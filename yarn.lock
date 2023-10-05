@@ -1933,21 +1933,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@qinetik/anique@npm:^1.0.21":
-  version: 1.0.21
-  resolution: "@qinetik/anique@npm:1.0.21"
+"@qinetik/anique@npm:^1.0.23":
+  version: 1.0.23
+  resolution: "@qinetik/anique@npm:1.0.23"
   dependencies:
     "@qinetik/anique-icons": 1.0.5
   peerDependencies:
-    "@qinetik/emotion": 2.0.17
+    "@qinetik/emotion": 2.0.20
     solid-js: ^1.7.11
-  checksum: da317db8c6623177a89f3194793f98ad0c7dc895337b8ad7516d2b74db7a2381991f26da8de246c14c7fa9396b30b7a7c2bbb691805725d7b121d62f78a577e1
+  checksum: 2f0da9c1c602bfeb017928c9d799328dabc346558cf9f286b558b47c6326fa11897ed7971eb0263550a853b505bf9f182bb999be345600b67b6a7a28f4a825c5
   languageName: node
   linkType: hard
 
-"@qinetik/emotion@npm:^2.0.17":
-  version: 2.0.17
-  resolution: "@qinetik/emotion@npm:2.0.17"
+"@qinetik/emotion@npm:^2.0.21":
+  version: 2.0.21
+  resolution: "@qinetik/emotion@npm:2.0.21"
   dependencies:
     "@emotion/cache": ^11.11.0
     "@emotion/is-prop-valid": ^1.2.1
@@ -1955,7 +1955,7 @@ __metadata:
     "@emotion/utils": ^1.2.1
   peerDependencies:
     solid-js: ^1.7.11
-  checksum: a73b3f24120fa4959aa7dfbcf6b0a6e7c0486291e2a7610820fec1d7ee0d7522f4d6e34b83b6b9062e8f4dbd1911540632641ee4f0c7131e41a4908691aa0d82
+  checksum: 40df72990a6f16bd1e8b58d9af191fc36d4c97176954e5075573ef14823b49bada2b9ac4e64eb905cc4ee542f87a7c68a39908fa0385cee9850f864abf67975f
   languageName: node
   linkType: hard
 
@@ -4768,8 +4768,8 @@ __metadata:
   resolution: "solid-start@workspace:."
   dependencies:
     "@auth/core": ^0.1
-    "@qinetik/anique": ^1.0.21
-    "@qinetik/emotion": ^2.0.17
+    "@qinetik/anique": ^1.0.23
+    "@qinetik/emotion": ^2.0.21
     "@solidjs/meta": ^0.28.2
     "@solidjs/router": ^0.8.0
     "@types/node": ^18.11.17

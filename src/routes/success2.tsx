@@ -24,6 +24,14 @@ export default function Check() {
 
     return (
         <FormContainer>
+            This doesn't cause error because I reversed the order of components even though imported from library
+            {
+                <InputButton
+                    type={"button"}
+                    onClick={() => setNavigatedToPassword(true)}
+                    value={"Submit"}
+                />
+            }
             {
                 navigatedToPassword() ? (
                     <input
@@ -31,14 +39,6 @@ export default function Check() {
                         name={"password"}
                     />
                 ) : null
-            }
-            You must refresh the page again to see the error
-            {
-                <InputButton
-                    type={"button"}
-                    onClick={() => setNavigatedToPassword(true)}
-                    value={"Submit"}
-                />
             }
         </FormContainer>
     )

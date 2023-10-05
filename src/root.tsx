@@ -48,6 +48,11 @@ export default function Root() {
                                             Success
                                         </DrawerItem>
                                     </Anchor>
+                                    <Anchor href="/success2">
+                                        <DrawerItem isSelected={active('/')}>
+                                            Success2
+                                        </DrawerItem>
+                                    </Anchor>
                                     <Anchor href="/error">
                                         <DrawerItem isSelected={active('/')}>
                                             Error

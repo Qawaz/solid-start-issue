@@ -1,12 +1,12 @@
 import {createEffect, createSignal} from "solid-js";
-import {styled} from "@qinetik/emotion";
+import {baseStyled} from "~/components/baseStyled";
 
-export const InputButton = styled("input")`
+export const InputButton = baseStyled("input")`
   width: 100%;
   box-sizing: border-box;
 `
 
-export const FormContainer = styled("form")`
+export const FormContainer = baseStyled("form")`
   display: flex;
   flex-direction: column;
   gap: 0.7em;
@@ -24,13 +24,7 @@ export default function SuccessRoute() {
 
     return (
         <FormContainer>
-            {
-                <InputButton
-                    type={"button"}
-                    onClick={() => setNavigatedToPassword(true)}
-                    value={"Submit"}
-                />
-            }
+            This doesn't cause error because I imported the baseStyled function into my source code
             {
                 navigatedToPassword() ? (
                     <input
@@ -38,6 +32,13 @@ export default function SuccessRoute() {
                         name={"password"}
                     />
                 ) : null
+            }
+            {
+                <InputButton
+                    type={"button"}
+                    onClick={() => setNavigatedToPassword(true)}
+                    value={"Submit"}
+                />
             }
         </FormContainer>
     )
